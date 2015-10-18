@@ -1,0 +1,9 @@
+services:
+    fervo.validated_message.middleware:
+        class: Fervo\ValidatedMessage\ValidatingMiddleware
+        public: false
+        arguments:
+            - @validator
+        tags:
+            - { name: command_bus_middleware, priority: 100 }
+            - { name: event_bus_middleware, priority: 100 }

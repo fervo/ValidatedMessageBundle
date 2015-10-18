@@ -1,0 +1,21 @@
+{
+    "name": "fervo/validated-message-bundle",
+    "description": "A bundle for ValidatedMessage",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Magnus Nordlander",
+            "email": "magnus@fervo.se"
+        }
+    ],
+    "require": {
+        "fervo/validated-message": "~1.0",
+        "symfony/framework-bundle": "~2.3",
+        "simple-bus/symfony-bridge": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fervo\\ValidatedMessageBundle\\": "src"
+        }
+    }
+}
