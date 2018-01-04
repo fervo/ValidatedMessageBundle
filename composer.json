@@ -10,7 +10,7 @@
     ],
     "require": {
         "fervo/validated-message": "^1.0",
-        "symfony/framework-bundle": "^2.3 || ^3.0",
+        "symfony/framework-bundle": "^2.3 || ^3.0 || ^4.0",
         "simple-bus/symfony-bridge": "^4.0"
     },
     "autoload": {
